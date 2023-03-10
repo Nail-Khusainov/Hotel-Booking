@@ -1,0 +1,11 @@
+.header__btn {
+  padding: 14px 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__btn {
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+  }
+}

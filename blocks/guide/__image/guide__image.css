@@ -1,0 +1,16 @@
+.guide__image {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1023px) {
+  .guide__image {
+      object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guide__image {
+      object-fit: contain;
+  }
+}

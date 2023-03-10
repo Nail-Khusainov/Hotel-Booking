@@ -1,0 +1,10 @@
+.choose-home__title {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .choose-home__title {
+    padding-top: 30px;
+  }
+}

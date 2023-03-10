@@ -1,0 +1,22 @@
+.benefit__text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .benefit__text-container {
+    margin: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .benefit__text-container {
+    padding: 10px 16px 0;
+    background-color: rgba(65, 65, 65, 0.8);
+    min-height: 300px;
+    position: relative;
+    z-index: 1;
+  }
+}

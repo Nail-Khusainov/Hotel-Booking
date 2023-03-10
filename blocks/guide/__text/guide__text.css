@@ -1,0 +1,17 @@
+.guide__text {
+  margin: 28px 0 17px 0;
+  padding: 0 126px 0 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .guide__text {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .guide__text {
+    padding: 0 16px;
+    margin: 10px 0 20px;
+  }
+}

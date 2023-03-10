@@ -1,0 +1,46 @@
+.rent__image {
+  max-width: 180px;
+  max-height: 588px;
+  object-fit: cover;
+}
+
+.rent__image:nth-child(2) {
+  position: relative;
+  top: 14%;
+}
+
+.rent__image:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .rent__image {
+    max-width: 162px;
+    max-height: 529px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .rent__image {
+    max-width: 135px;
+    max-height: 441px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rent__image {
+    max-width: 162px;
+    max-height: 529px;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .rent__image {
+    max-width: 102px;
+    max-height: 333px;
+  }
+
+  .rent__image:nth-child(2) {
+    top: 16%;
+  }
+}

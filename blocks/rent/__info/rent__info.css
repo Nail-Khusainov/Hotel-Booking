@@ -1,0 +1,18 @@
+.rent__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .rent__info {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .rent__info {
+    margin: 0 auto;
+  }
+}
